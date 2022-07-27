@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url'
 import express, { query } from 'express'
 import hbs from 'hbs'
 import { forecast } from './utils/forecast.js'
-//import { getResponse } from './utils/forecast.js'
 import {geocode} from './utils/geocode.js'
 const app = express()
 const port = 3000
